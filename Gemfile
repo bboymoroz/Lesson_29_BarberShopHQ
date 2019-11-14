@@ -8,6 +8,6 @@ gem "sinatra-contrib"
 
 
 group :development  do
-		gem "tax"
+	gem "tux"
 end
 		
