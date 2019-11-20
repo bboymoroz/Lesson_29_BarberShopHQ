@@ -22,7 +22,6 @@ end
 
 
 get '/' do
-
 	erb :index
 end	
 
@@ -41,7 +40,6 @@ post '/visit' do
 		@error = @c.errors.full_messages.first
 		erb :visit 
 	end
-
 end
 
 get '/barber/:id' do
@@ -58,3 +56,5 @@ get '/client/:id' do
     @client = Client.find(params[:id])
     erb :client
 end
+
+
